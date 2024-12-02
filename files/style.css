@@ -14,7 +14,7 @@ font-optical-sizing: auto;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #17375f;
+    background-color: #035a69;
     /*position:fixed;*/
     top:0;
     /*max-height: 50px;*/
@@ -110,7 +110,7 @@ padding-top: 250px;
     
 
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     
     
@@ -137,13 +137,18 @@ height: 150px;
 
 }
 ul>li>a {
+    text-align: left;
+
     font-size: 12px;
     padding: 0 6px;
+
+    
   }
 
   .nav{
 
 background-color: #508C9B;
+
   }
 }
 .title-text{
@@ -276,6 +281,7 @@ padding-bottom: 60px;
 
     height: 100px;
 }
+
     
 }
 .message{
@@ -314,15 +320,45 @@ padding-bottom: 60px;
 
 }
 .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
 
     background-color: #088395;
     padding: 50px;
 }
+.filter-white{
+    
 
+    height: 40px; padding-left: 10px;
+}
+
+@media (max-width: 650px){
+
+    .filter-white{
+    
+
+        height: 20px; padding-left: 10px;
+    }
+}
 
 .copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     font-size: 10px;
-    padding: 40px;
+    padding: 0px;
+    margin-top: 0;
+    padding-bottom: 30px;
+    background-color: #088395;
 }
+
+
+
+    
+    
+
 
